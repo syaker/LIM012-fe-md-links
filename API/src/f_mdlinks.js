@@ -8,7 +8,7 @@ const marked = require('marked');
 const validatePath = (pathReceived) => fs.existsSync(pathReceived);
 
 // VERIFICA SI LA RUTA ES ABSOLUTA - RETORNA TRUE/FALSE
-const verificateAbsolute = (pathToVerificate) => path.isAbsolute(pathToVerificate) ? pathToVerificate : path.resolve(pathTaken);
+const verificateAbsolute = (pathToVerificate) => path.isAbsolute(pathToVerificate) ? pathToVerificate : path.resolve(pathToVerificate);
 
 //  VERIFICA SI ES UN ARCHIVO O UN DIRECTORIO - RETORNA ARRAY CON RUTAS 
 const archiveOrDirectory = (pathTaken) => {
