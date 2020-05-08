@@ -1,14 +1,15 @@
-# Markdown Links
+# Markdown Links 🔗
 ![Readme](README-image.png)
-## Descripción
+## Descripción 👁‍🗨
 
 Muchas veces los archivos markdown contienen links (vínculos) que están caídos y el/la autor(a) necesita revisar cual de ellos sigue en funcionamiento para no perjudicar su trabajo.
 Por ello este proyecto consiste en crear una herramienta para analizar que links son válidos en el archivo markdown (.md).
 
-## Objetivos de aprendizaje
-
-Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron 
-pendientes de tu proyecto anterior.
+## Diagrama de flujo (API) 📚
+![API](API.png)
+## Diagrama de flujo (CLI) 📋
+![CLI](CLI.png)
+## Objetivos de aprendizaje ✅
 
 ### Javascript
 - [ ] Uso de callbacks
