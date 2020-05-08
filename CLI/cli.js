@@ -1,5 +1,7 @@
-#! / usr / bin / env nodo
+#!/usr/bin/env node
+const { mdlinks } = require('../API/src/mdlinks');
 
 const [,, ...args] = process.argv
 
-console.log(`Sigue ${args}`)
+console.log(process.argv[2])
+

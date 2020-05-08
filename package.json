@@ -38,5 +38,8 @@
     "jsdom": "^16.2.2",
     "marked": "^1.0.0",
     "request": "^2.88.2"
+  },
+  "bin": {
+    "md-links": "./CLI/cli.js"
   }
 }
