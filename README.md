@@ -1,9 +1,9 @@
 # Markdown Links
-
+![Readme](README-image.png)
 ## Descripción
 
 Muchas veces los archivos markdown contienen links (vínculos) que están caídos y el/la autor(a) necesita revisar cual de ellos sigue en funcionamiento para no perjudicar su trabajo.
-Por ello este proyecto consiste en crear una herramienta para analizar fácilmente que links son válidos en el archivo markdown (.md).
+Por ello este proyecto consiste en crear una herramienta para analizar que links son válidos en el archivo markdown (.md).
 
 ## Objetivos de aprendizaje
 
@@ -12,21 +12,21 @@ pendientes de tu proyecto anterior.
 
 ### Javascript
 - [ ] Uso de callbacks
-- [ ] Consumo de Promesas
-- [ ] Creacion de Promesas
-- [ ] Modulos de Js
-- [ ] Recursión
+- [x] Consumo de Promesas
+- [x] Creacion de Promesas
+- [x] Modulos de Js
+- [x] Recursión
 
 ### Node
-- [ ] Sistema de archivos
-- [ ] package.json
-- [ ] crear modules
-- [ ] Instalar y usar modules
+- [x] Sistema de archivos
+- [x] package.json
+- [x] crear modules
+- [x] Instalar y usar modules
 - [ ] npm scripts
 - [ ] CLI (Command Line Interface - Interfaz de Línea de Comando)
 
 ### Testing
-- [ ] Testeo de tus funciones
+- [x] Testeo de tus funciones
 - [ ] Testeo asíncrono
 - [ ] Uso de librerias de Mock
 - [ ] Mocks manuales
@@ -36,6 +36,6 @@ pendientes de tu proyecto anterior.
 - [ ] Organización en Github
 
 ### Buenas prácticas de desarrollo
-- [ ] Modularización
-- [ ] Nomenclatura / Semántica
-- [ ] Linting
+- [x] Modularización
+- [x] Nomenclatura / Semántica
+- [x] Linting
