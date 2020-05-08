@@ -1,29 +1,29 @@
 {
-  "name": "mdlinks--cli",
-  "version": "1.0.0",
-  "description": "Paquete de linea de comandos de la libreria mdlinks",
-  "main": "cli.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/syaker/LIM012-fe-md-links.git"
-  },
-  "keywords": [
-    "mdlinks",
-    "md",
-    "links",
-    "cli",
-    "node"
-  ],
-  "author": "syaker",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/syaker/LIM012-fe-md-links/issues"
-  },
-  "homepage": "https://github.com/syaker/LIM012-fe-md-links#readme",
-  "bin": {
-    "md-links": "./cli.js"
-  }
+	"name": "mdlinks--cli",
+	"version": "1.0.0",
+	"description": "Paquete de linea de comandos de la libreria mdlinks",
+	"main": "cli.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/syaker/LIM012-fe-md-links.git"
+	},
+	"keywords": [
+		"mdlinks",
+		"md",
+		"links",
+		"cli",
+		"node"
+	],
+	"author": "syaker",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/syaker/LIM012-fe-md-links/issues"
+	},
+	"homepage": "https://github.com/syaker/LIM012-fe-md-links#readme",
+	"bin": {
+		"md-links": "./cli.js"
+	}
 }
