@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { mdlinks } = require('../API/src/mdlinks');
+const { mdlinks } = require('../API/mdlinks');
 
 
 const path = process.argv[2];
