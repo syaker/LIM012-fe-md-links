@@ -25,16 +25,11 @@ describe('Archivo o directorio, extrae .md, busca links, valida', () => {
 	})
 
 	it('Tiene que retornar un array con objetos que contengan info de las URL', () => {
-		expect(mdFunctions.findLinks(["C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src\\archivesmd\\archive1.md"])).toStrictEqual([
+		expect(mdFunctions.findLinks(["C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src\\archivesmd\\archive2.md"])).toStrictEqual([
 			{
-				href: 'https://nodejs.org/api/path.html',
-				text: 'https://nodejs.org/api/path.html',
-				link: 'C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src\\archivesmd\\archive1.md'
-			},
-			{
-				href: 'https://docs.google.com/spreadsheets/d/1Ka4UZFO20syGtuveO99Wi49Lth6LiDhEdIGuew23fMk/edit#gid=443532081',
-				text: 'https://docs.google.com/spreadsheets/d/1Ka4UZFO20s',
-				link: 'C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src\\archivesmd\\archive1.md'
+				href: 'http://www.facebook.com/',
+				text: 'http://www.facebook.com',
+				link: 'C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src\\archivesmd\\archive2.md'
 			}
 		]);
 	})
@@ -73,7 +68,7 @@ describe('Archivo o directorio, extrae .md, busca links, valida', () => {
 
 	it('Tiene que retornar un objeto', () => {
 		validateFunctions.promisesFetch({ href: "https://www.facebook.com" })
-			.then((c) => expect(c).toEqual( { href: 'https://www.facebook.com', status: 200, statusText: 'OK' }))
+			.then((c) => expect(c).toEqual({ href: 'https://www.facebook.com', status: 200, statusText: 'OK' }))
 
 	})
 
