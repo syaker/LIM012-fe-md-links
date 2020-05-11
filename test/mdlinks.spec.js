@@ -73,7 +73,7 @@ describe('Archivo o directorio, extrae .md, busca links, valida', () => {
 
 	it('Tiene que retornar un objeto', () => {
 		validateFunctions.promisesFetch({ href: "https://www.facebook.com" })
-			.then((c) => expect(c).toStrictEqual( { href: 'https://www.facebook.com', status: 200, statusText: 'OK' }))
+			.then((c) => expect(c).toEqual( { href: 'https://www.facebook.com', status: 200, statusText: 'OK' }))
 
 	})
 
@@ -109,7 +109,11 @@ describe('Todas deben ser funciones', () => {
 		expect(typeof mdFunctions.findLinks).toBe('function');
 	})
 
+	it('promisesFetch deberia ser una funcion', () => {
+		expect(typeof validateFunctions.promisesFetch).toBe('function');
+	})
+
 	it('validateLinks deberia ser una funcion', () => {
-		expect(typeof mdFunctions.verificateAbsolute).toBe('function');
+		expect(typeof validateFunctions.validateLinks).toBe('function');
 	})
 })

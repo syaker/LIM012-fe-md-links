@@ -22,5 +22,4 @@ const mdlinks = (path, options) => {
 	})
 }
 
-mdlinks("C:\\Users\\cifer\\Desktop\\LIM012-fe-md-links\\API\\src").then((a) => console.log(a)).catch((err) => console.log(err))
-
+module.exports = { mdlinks };
