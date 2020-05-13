@@ -26,7 +26,13 @@ Si deseas instalarlo como una dependencia:
 
 Ejemplo:
 
-![FuncionamientoModulo](fun-mod.png)
+**Solo ruta**
+
+![FuncionamientoModulo](all_images/fun-md.png)
+
+**Ruta y validate**
+
+![Funcionamiento-Validate](all_images/validate-mod.png)
 
 ## En consola
 
