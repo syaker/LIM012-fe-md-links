@@ -34,10 +34,10 @@ Ejemplo:
 
 |md-links|ruta/del/archivo|--stats|--validate|Resultado                            |
 |------  |----------------|------:|------:   |---								   |
-|------  |✅              |❌    |❌        | Solo ruta devuelve todos los links  |
-|------  |✅              |✅    |❌        | Ruta + stats devuelve total + unicos|
-|------  |✅              |❌    |✅        | Ruta + validate valida los links    |
-|------  |✅              |✅    |✅        | Ruta + stats + validate devuelve total, unicos y rotos|
+|------  |✅              |❌    |❌        | Solo ruta devuelve: todos los links, texto y ruta donde se hallo el link |
+|------  |✅              |✅    |❌        | Ruta + stats devuelve: total de links y links unicos|
+|------  |✅              |❌    |✅        | Ruta + validate devuelve: links validados, texto y ruta donde se hallo el link    |
+|------  |✅              |✅    |✅        | Ruta + stats + validate devuelve: total de links, unicos y rotos|
 
 **Para encontrar todos los links en archivos .md**
 
