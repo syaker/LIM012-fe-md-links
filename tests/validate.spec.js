@@ -1,8 +1,8 @@
-const validateFunctions = require('../API/validate');
+const validate = require('../API/validate');
 
 describe('Funciones para validar ruta de validate.js', () => {
 	it('Tiene que retornar un array de objetos', () => {
-		validateFunctions.validateLinks([
+		validate.validateLinks([
 			{
 				href: 'https://nodejs.org/api/path.html',
 				text: 'https://nodejs.org/api/path.html',
@@ -33,9 +33,9 @@ describe('Funciones para validar ruta de validate.js', () => {
 
 	})
 
-	it('Tiene que retornar un objeto', () => {
-		validateFunctions.promisesFetch({ href: "https://www.facebook.com" })
-			.then((c) => expect(c).toEqual({ href: 'https://www.facebook.com', status: 200, statusText: 'OK' }))
-
+	it('Tiene que retornar un objeto', (done) => {
+		validate.promisesFetch({ href: 'https://www.facebook.com' })
+			.then((a) => expect(a).toEqual({ href: 'https://www.facebook.com', status: 200, statusText: 'OK' }));
+			done()
 	})
 })

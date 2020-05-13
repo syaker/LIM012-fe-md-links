@@ -34,10 +34,10 @@
     "jest": "^25.5.4"
   },
   "dependencies": {
+    "chalk": "^4.0.0",
     "cross-fetch": "^3.0.4",
     "jsdom": "^16.2.2",
-    "marked": "^1.0.0",
-    "request": "^2.88.2"
+    "marked": "^1.0.0"
   },
   "bin": {
     "md-links": "./CLI/cli.js"

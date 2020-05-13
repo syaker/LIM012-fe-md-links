@@ -1,5 +1,6 @@
 const { validatePath, verificateAbsolute, archiveOrDirectory, extractMD, findLinks } = require('./f_mdlinks')
 const { validateLinks } = require('./validate')
+const chalk = require('chalk')
 
 
 const mdlinks = (path, options) => {
@@ -17,7 +18,7 @@ const mdlinks = (path, options) => {
 			.then((archive) => resolve(findLinks(archive)));
 
 		} else {
-			reject('No es una ruta valida');
+			reject(chalk.bgRedBright('FAIL:') + chalk.red(' x') + ' No es una ruta valida');
 		}
 	})
 }

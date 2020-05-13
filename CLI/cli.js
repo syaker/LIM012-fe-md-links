@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const { mdlinks } = require('../API/mdlinks');
+const chalk = require('chalk')
 
 
 const path = process.argv[2];
@@ -17,9 +18,9 @@ if (arrOfTerminal.length < 6) {
 				obj.forEach((link) => { allLinks.push(link.href); link.status != 200 ? broken += 1 : broken += 0 })
 				const uniqueLinks = allLinks.filter((elem, index) => allLinks.indexOf(elem) === index)
 				const texto = `
-			Total = ${allLinks.length}
-			Unique = ${uniqueLinks.length}
-			Broken = ${broken}
+			${chalk.green("Total =" + " " + allLinks.length)}
+			${chalk.blue("Unique =" + " " + uniqueLinks.length)}
+			${chalk.yellow("Broken =" + " " + broken)}
 			`
 				console.log(texto)
 			})
@@ -31,7 +32,8 @@ if (arrOfTerminal.length < 6) {
 			.then((obj) => {
 				let show = ""
 				obj.forEach((obj) => {
-					show += obj.link + " " + obj.href + " " + obj.statusText + " " + obj.status + " " + obj.text + '\n';
+					show += obj.link + " " + chalk.greenBright(obj.href) + " " + chalk.yellow(obj.statusText)
+						+ " " + chalk.bgYellow.bold(chalk.gray(obj.status)) + " " + chalk.blue(obj.text) + '\n';
 				})
 				console.log(show)
 			})
@@ -44,8 +46,8 @@ if (arrOfTerminal.length < 6) {
 				obj.forEach((link) => links.push(link.href))
 				const uniqueLinks = links.filter((elem, index) => links.indexOf(elem) === index)
 				const texto = `
-			Total = ${links.length}
-			Unique = ${uniqueLinks.length}
+				${chalk.green("Total =" + " " + links.length)}
+				${chalk.blue("Unique =" + " " + uniqueLinks.length)}
 			`
 				console.log(texto)
 			})
@@ -56,7 +58,7 @@ if (arrOfTerminal.length < 6) {
 			.then((obj) => {
 				let show = ""
 				obj.forEach((obj) => {
-					show += obj.link + " " + obj.href + " " + obj.text + '\n';
+					show += obj.link + " " + chalk.greenBright(obj.href) + " " + chalk.blue(obj.text) + '\n';
 				})
 				console.log(show)
 			})
@@ -64,11 +66,11 @@ if (arrOfTerminal.length < 6) {
 
 	} else {
 
-		console.log('Verificar opciones introducidas')
+		console.log(chalk.bgRedBright('FAIL:') + chalk.yellow(' --> ') + chalk.yellowBright.underline('Verificar opciones introducidas'))
 
 	}
 } else {
 
-	console.log('Has colocado una opcion de mas')
+	console.log(chalk.bgRedBright('FAIL:') + chalk.yellow(' --> ') + chalk.yellowBright.underline('Has colocado opciones de mas'))
 
 }

@@ -1,11 +1,12 @@
 const fetch = require('cross-fetch');
 
 //Aqui fetch me retorna una promesa y el parametro es un objeto
-const promisesFetch = (objeto) => fetch(objeto.href).then((date) => {
+const promisesFetch = (objeto) => fetch(objeto.href)
+.then((date) => {
 	objeto.status = date.status,
 	objeto.statusText = date.statusText;
 	return objeto
-});
+})
 
 // VALIDAR LINKS - Recibe un array de objetos, retorna una promesa
 const validateLinks = (arrayURL) => {
