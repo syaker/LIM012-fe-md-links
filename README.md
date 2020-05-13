@@ -32,7 +32,7 @@ Ejemplo:
 
 ### **Opciones**
 
-|md-links|ruta/del/archivo|--stats|--validate|Resultado                            |
+|md-links|path|--stats|--validate|Resultado                            |
 |------  |----------------|------:|------:   |---								   |
 |------  |✅              |❌    |❌        | Solo ruta => todos los links, texto y ruta donde se hallo el link |
 |------  |✅              |✅    |❌        | Ruta + stats => total de links y links unicos|
