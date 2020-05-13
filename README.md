@@ -111,7 +111,7 @@ igualmente colocando `--validate --stats`
 ### Testing
 - [x] Testeo de tus funciones
 - [x] Testeo asíncrono
-- [] Uso de librerias de Mock
+- [ ] Uso de librerias de Mock
 - [x] Mocks manuales
 - [ ] Testeo para multiples Sistemas Operativos
 
