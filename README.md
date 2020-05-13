@@ -1,5 +1,5 @@
 # Markdown Links 🔗
-![Readme](README-image.png)
+![Readme](all_images/README-image.png)
 ## Descripción 👁‍🗨
 
 Muchas veces los archivos markdown contienen links (vínculos) que están caídos y el/la autor(a) necesita revisar cual de ellos sigue en funcionamiento para no perjudicar su trabajo.
