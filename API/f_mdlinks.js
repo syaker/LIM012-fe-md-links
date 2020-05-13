@@ -14,11 +14,10 @@ const verificateAbsolute = (pathToVerificate) => path.isAbsolute(pathToVerificat
 const archiveOrDirectory = (pathTaken) => {
 	const statsPath = fs.statSync(pathTaken);
 	const isArchive = statsPath.isFile();
-	const isDirectory = statsPath.isDirectory();
 	let allArchives = [];
 	if (isArchive) {
 		allArchives.push(pathTaken);
-	} else if (isDirectory) {
+	} else {
 		//Lee el directorio
 		const readDirectory = fs.readdirSync(pathTaken);
 		// Aqui obtengo la ruta absoluta de cada archivo y/o directorio mediante path join, uniendo la ruta
@@ -41,9 +40,7 @@ const extractMD = (archives) => new Promise((resolve, reject) => {
 	let allFiles = [];
 	archives.forEach((file) => {
 		const extensionPath = path.extname(file); //Extrae la extension
-		if (extensionPath == '.md') {
-			allFiles.push(file); //Si cumple introduce dentro de la ruta
-		}
+		 if (extensionPath === '.md')  allFiles.push(file); //Si cumple introduce dentro de la ruta
 	})
 	resolve(allFiles);
 	reject('No se encontraron archivos con extensión .md');
