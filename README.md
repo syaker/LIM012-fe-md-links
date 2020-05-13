@@ -22,7 +22,7 @@ Si deseas instalarlo como una dependencia:
 
 ## Importar como modulo
 
-`const md-links = require('md-links')`
+`const { mdlinks } = require('mdlinks')`
 
 Ejemplo:
 
