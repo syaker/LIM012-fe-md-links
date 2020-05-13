@@ -10,7 +10,7 @@ Por ello este proyecto consiste en crear una herramienta para analizar que links
 ## Diagrama de flujo (CLI) 📋
 ![CLI](CLI.png)
 ## **Guia de instalacion** 💿
-Si deseas instalar `md-link` de forma global:
+Si deseas instalar `md-links` de forma global:
 
 `npm install git://github.com/syaker/LIM012-fe-md-links/`
 
