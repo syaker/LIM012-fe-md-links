@@ -9,7 +9,7 @@ Por ello este proyecto consiste en crear una herramienta para analizar que links
 ![API](API.png)
 ## Diagrama de flujo (CLI) 📋
 ![CLI](CLI.png)
-## Guia de instalacion
+## Guia de instalacion 💿
 Si deseas instalar `md-link` de forma global:
 
 `npm install git://github.com/syaker/LIM012-fe-md-links/`
@@ -18,7 +18,7 @@ Si deseas instalarlo como una dependencia:
 
 `npm install --save --dev git://github.com/syaker/LIM012-fe-md-links/`
 
-## Funcionamiento
+## Funcionamiento 🚀
 
 ## Importar como modulo
 
@@ -30,7 +30,7 @@ Ejemplo:
 
 ## En consola
 
-Para encontrar todos los links en archivos .md
+**Para encontrar todos los links en archivos .md**
 
 `md-links ruta/a/analizar`
 
@@ -38,7 +38,7 @@ Ejemplo:
 
 ![ConsolaOp](all_images/fun-mod.png)
 
-Validar los links encontrados
+**Validar los links encontrados**
 
 `md-links ruta/a/analizar --validate`
 
@@ -46,7 +46,7 @@ Ejemplo:
 
 ![ConsolaValidate](all_images/validate.png)
 
-Obtener total de links y links unicos
+**Obtener total de links y links unicos**
 
 `md-links ruta/a/analizar --stats`
 
@@ -54,7 +54,7 @@ Ejemplo:
 
 ![ConsolaStats](all_images/stats.png)
 
-Obtener total de links, links unicos y rotos
+**Obtener total de links, links unicos y rotos**
 
 `md-links ruta/a/analizar --stats --validate`
 
@@ -68,7 +68,7 @@ igualmente colocando `--validate --stats`
 
 ![ConsolaStatsValidate2](all_images/validate-stats.png)
 
-**Errores comunes**
+## ❌ **Errores comunes** 
 
 Ruta invalida
 
