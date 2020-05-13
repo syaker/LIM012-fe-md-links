@@ -2,7 +2,7 @@
   "name": "mdlinks",
   "version": "0.0.1",
   "description": "libreria que valida links en archivos .md",
-  "main": "mdlinks",
+  "main": "./API/mdlinks",
   "scripts": {
     "test": "jest --verbose --coverage"
   },

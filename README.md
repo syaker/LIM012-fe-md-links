@@ -10,7 +10,7 @@ Por ello este proyecto consiste en crear una herramienta para analizar que links
 ## Diagrama de flujo (CLI) 📋
 ![CLI](CLI.png)
 ## **Guia de instalacion** 💿
-Si deseas instalar `md-link` de forma global:
+Si deseas instalar `md-links` de forma global:
 
 `npm install git://github.com/syaker/LIM012-fe-md-links/`
 
@@ -22,11 +22,17 @@ Si deseas instalarlo como una dependencia:
 
 ## Importar como modulo
 
-`const md-links = require('md-links')`
+`const { mdlinks } = require('mdlinks')`
 
 Ejemplo:
 
-![FuncionamientoModulo](fun-mod.png)
+**Solo ruta**
+
+![FuncionamientoModulo](all_images/fun-md.png)
+
+**Ruta y validate**
+
+![Funcionamiento-Validate](all_images/validate-mod.png)
 
 ## En consola
 
