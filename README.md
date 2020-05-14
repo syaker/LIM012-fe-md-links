@@ -38,9 +38,9 @@ Ejemplo:
 
 ![Funcionamiento-Validate](all_images/validate-mod.png)
 
-## En consola
+## En consola 💻
 
-### **Opciones**
+### **Opciones** 📑
 
 |md-links|path|--stats|--validate|Resultado                            |
 |------  |----------------|------:|------:   |---								   |
@@ -49,7 +49,7 @@ Ejemplo:
 |------  |✅              |❌    |✅        | Ruta + validate => links validados, texto y ruta donde se hallo el link    |
 |------  |✅              |✅    |✅        | Ruta + stats + validate => total de links, unicos y rotos|
 
-**Para encontrar todos los links en archivos .md**
+1⃣ **Para encontrar todos los links en archivos .md**
 ~~~
 md-links ruta/a/analizar
 ~~~
@@ -57,7 +57,7 @@ Ejemplo:
 
 ![ConsolaOp](all_images/fun-mod.png)
 
-**Validar los links encontrados**
+2⃣ **Validar los links encontrados**
 ~~~
 md-links ruta/a/analizar --validate
 ~~~
@@ -73,7 +73,7 @@ Ejemplo:
 
 ![ConsolaStats](all_images/stats.png)
 
-**Obtener total de links, links unicos y rotos**
+3⃣ **Obtener total de links, links unicos y rotos**
 ~~~
 md-links ruta/a/analizar --stats --validate
 ~~~
@@ -87,7 +87,7 @@ md-links ruta/a/analizar --validate --stats
 ~~~
 ![ConsolaStatsValidate2](all_images/validate-stats.png)
 
-## ❌ **Errores comunes** 
+## ⚠ **Errores comunes** ⚠
 
 **Ruta invalida**
 
