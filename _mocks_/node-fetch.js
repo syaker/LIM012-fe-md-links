@@ -6,8 +6,7 @@ Object.assign(fetchMock.config, nodeFetch, {
   fetch: nodeFetch,
 });
 
-fetchMock.mock(
-	'https://es.wikipedia.org/wiki/Markdown', 200,
-)
+fetchMock.mock('https://github.com/cheeriojs/cheeriof', 404)
 
-module.exports = { fetch_mock } 
+
+export default fetchMock;

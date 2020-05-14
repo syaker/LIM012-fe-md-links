@@ -33,9 +33,9 @@ describe('Funciones para validar ruta de validate.js', () => {
 
 	})
 
-	it('Tiene que retornar un objeto', (done) => {
-		validate.promisesFetch({ href: 'https://www.facebook.com' })
-			.then((a) => expect(a).toEqual({ href: 'https://www.facebook.com', status: 200, statusText: 'OK' }));
-			done()
+	it('Tiene que retornar un objeto', () => {
+		return expect(validate.promisesFetch({ href: 'https://www.facebook.com' })).resolves
+		.toEqual({ href: 'https://www.facebook.com', status: 200, statusText: 'OK' });
+			
 	})
 })
