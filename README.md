@@ -6,24 +6,28 @@ Muchas veces los archivos markdown contienen links (vínculos) que están caído
 Por ello este proyecto consiste en crear una herramienta para analizar que links son válidos en el archivo markdown (.md).
 
 ## Diagrama de flujo (API) 📚
-![API](API.png)
+![API](all_images/API.png)
 ## Diagrama de flujo (CLI) 📋
-![CLI](CLI.png)
+![CLI](all_images/CLI.png)
 ## **Guia de instalacion** 💿
 Si deseas instalar `md-links` de forma global:
-
+~~~
 `npm install git://github.com/syaker/LIM012-fe-md-links/`
+~~~
 
 Si deseas instalarlo como una dependencia:
 
+~~~
 `npm install --save --dev git://github.com/syaker/LIM012-fe-md-links/`
+~~~
 
 ## **Funcionamiento** 🚀
 
 ## Importar como modulo
 
+~~~
 `const { mdlinks } = require('mdlinks')`
-
+~~~
 Ejemplo:
 
 **Solo ruta**
@@ -46,41 +50,41 @@ Ejemplo:
 |------  |✅              |✅    |✅        | Ruta + stats + validate => total de links, unicos y rotos|
 
 **Para encontrar todos los links en archivos .md**
-
+~~~
 `md-links ruta/a/analizar`
-
+~~~
 Ejemplo:
 
 ![ConsolaOp](all_images/fun-mod.png)
 
 **Validar los links encontrados**
-
+~~~
 `md-links ruta/a/analizar --validate`
-
+~~~
 Ejemplo:
 
 ![ConsolaValidate](all_images/validate.png)
 
 **Obtener total de links y links unicos**
-
+~~~
 `md-links ruta/a/analizar --stats`
-
+~~~
 Ejemplo:
 
 ![ConsolaStats](all_images/stats.png)
 
 **Obtener total de links, links unicos y rotos**
-
+~~~
 `md-links ruta/a/analizar --stats --validate`
-
+~~~
 Ejemplo:
 
 ![ConsolaStatsValidate](all_images/validate-stats.png)
 
-igualmente colocando `--validate --stats`
-
+**igualmente colocando** `--validate --stats`
+~~~
 `md-links ruta/a/analizar --validate --stats`
-
+~~~
 ![ConsolaStatsValidate2](all_images/validate-stats.png)
 
 ## ❌ **Errores comunes** 
