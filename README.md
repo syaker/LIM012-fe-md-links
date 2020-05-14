@@ -48,8 +48,8 @@ Ejemplo:
 |------  |✅              |✅    |❌        | Ruta + stats => total de links y links unicos|
 |------  |✅              |❌    |✅        | Ruta + validate => links validados, texto y ruta donde se hallo el link    |
 |------  |✅              |✅    |✅        | Ruta + stats + validate => total de links, unicos y rotos|
-
-1⃣ **Para encontrar todos los links en archivos .md**
+---
+✔ **Para encontrar todos los links en archivos .md**
 ~~~
 md-links ruta/a/analizar
 ~~~
@@ -57,7 +57,9 @@ Ejemplo:
 
 ![ConsolaOp](all_images/fun-mod.png)
 
-2⃣ **Validar los links encontrados**
+---
+
+✔ **Validar los links encontrados**
 ~~~
 md-links ruta/a/analizar --validate
 ~~~
@@ -65,7 +67,9 @@ Ejemplo:
 
 ![ConsolaValidate](all_images/validate.png)
 
-**Obtener total de links y links unicos**
+---
+
+✔ **Obtener total de links y links unicos**
 ~~~
 md-links ruta/a/analizar --stats
 ~~~
@@ -73,7 +77,9 @@ Ejemplo:
 
 ![ConsolaStats](all_images/stats.png)
 
-3⃣ **Obtener total de links, links unicos y rotos**
+---
+
+✔ **Obtener total de links, links unicos y rotos**
 ~~~
 md-links ruta/a/analizar --stats --validate
 ~~~
@@ -86,6 +92,8 @@ Ejemplo:
 md-links ruta/a/analizar --validate --stats
 ~~~
 ![ConsolaStatsValidate2](all_images/validate-stats.png)
+
+---
 
 ## ⚠ **Errores comunes** ⚠
 
