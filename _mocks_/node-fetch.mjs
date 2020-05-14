@@ -2,7 +2,7 @@ const fetchMock = require('fetch-mock').sandbox();
 const nodeFetch = jest.requireActual('node-fetch');
 
 
-Object.assign(fetchMock.config, nodeFetch, {
+Object.assign(fetchMock.config, {
   fetch: nodeFetch,
 });
 
