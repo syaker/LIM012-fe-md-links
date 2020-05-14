@@ -12,13 +12,13 @@ Por ello este proyecto consiste en crear una herramienta para analizar que links
 ## **Guia de instalacion** 💿
 Si deseas instalar `md-links` de forma global:
 ~~~
-`npm install git://github.com/syaker/LIM012-fe-md-links/`
+npm install git://github.com/syaker/LIM012-fe-md-links/
 ~~~
 
 Si deseas instalarlo como una dependencia:
 
 ~~~
-`npm install --save --dev git://github.com/syaker/LIM012-fe-md-links/`
+npm install --save --dev git://github.com/syaker/LIM012-fe-md-links/
 ~~~
 
 ## **Funcionamiento** 🚀
@@ -26,7 +26,7 @@ Si deseas instalarlo como una dependencia:
 ## Importar como modulo
 
 ~~~
-`const { mdlinks } = require('mdlinks')`
+const { mdlinks } = require('mdlinks')
 ~~~
 Ejemplo:
 
@@ -51,7 +51,7 @@ Ejemplo:
 
 **Para encontrar todos los links en archivos .md**
 ~~~
-`md-links ruta/a/analizar`
+md-links ruta/a/analizar
 ~~~
 Ejemplo:
 
@@ -59,7 +59,7 @@ Ejemplo:
 
 **Validar los links encontrados**
 ~~~
-`md-links ruta/a/analizar --validate`
+md-links ruta/a/analizar --validate
 ~~~
 Ejemplo:
 
@@ -67,7 +67,7 @@ Ejemplo:
 
 **Obtener total de links y links unicos**
 ~~~
-`md-links ruta/a/analizar --stats`
+md-links ruta/a/analizar --stats
 ~~~
 Ejemplo:
 
@@ -75,7 +75,7 @@ Ejemplo:
 
 **Obtener total de links, links unicos y rotos**
 ~~~
-`md-links ruta/a/analizar --stats --validate`
+md-links ruta/a/analizar --stats --validate
 ~~~
 Ejemplo:
 
@@ -83,7 +83,7 @@ Ejemplo:
 
 **igualmente colocando** `--validate --stats`
 ~~~
-`md-links ruta/a/analizar --validate --stats`
+md-links ruta/a/analizar --validate --stats
 ~~~
 ![ConsolaStatsValidate2](all_images/validate-stats.png)
 
