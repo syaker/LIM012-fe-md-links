@@ -34,6 +34,8 @@ Ejemplo:
 
 ![FuncionamientoModulo](all_images/fun-md.png)
 
+---
+
 ✔ **Ruta y validate**
 
 ![Funcionamiento-Validate](all_images/validate-mod.png)
@@ -96,18 +98,24 @@ md-links ruta/a/analizar --validate --stats
 ---
 
 ## ⚠ **Errores comunes**
-
+---
 ☑ **Ruta invalida**
 
 ![RutaInvalida](all_images/ruta-invalida.png)
+
+---
 
 ☑ **Opcion invalida**
 
 ![OpcionInvalida](all_images/opcion-invalida.png)
 
+---
+
 ☑ **Opciones no estipuladas**
 
 ![Opcionadicional](all_images/opcion-adicional.png)
+
+---
 
 ## Objetivos de aprendizaje ✅
 
