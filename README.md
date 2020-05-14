@@ -97,8 +97,8 @@ md-links ruta/a/analizar --validate --stats
 
 ---
 
-⚠ **Errores comunes**
----
+ **Errores comunes** ⚠ 📣
+
 ☑ **Ruta invalida**
 
 ![RutaInvalida](all_images/ruta-invalida.png)
