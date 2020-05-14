@@ -103,19 +103,16 @@ md-links ruta/a/analizar --validate --stats
 
 ![RutaInvalida](all_images/ruta-invalida.png)
 
----
 
 ☑ **Opcion invalida**
 
 ![OpcionInvalida](all_images/opcion-invalida.png)
 
----
 
 ☑ **Opciones no estipuladas**
 
 ![Opcionadicional](all_images/opcion-adicional.png)
 
----
 
 ## Objetivos de aprendizaje ✅
 
