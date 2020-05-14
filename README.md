@@ -30,11 +30,11 @@ const { mdlinks } = require('mdlinks')
 ~~~
 Ejemplo:
 
-**Solo ruta**
+✔ **Solo ruta**
 
 ![FuncionamientoModulo](all_images/fun-md.png)
 
-**Ruta y validate**
+✔ **Ruta y validate**
 
 ![Funcionamiento-Validate](all_images/validate-mod.png)
 
@@ -95,17 +95,17 @@ md-links ruta/a/analizar --validate --stats
 
 ---
 
-## ⚠ **Errores comunes** ⚠
+## ⚠ **Errores comunes**
 
-**Ruta invalida**
+☑ **Ruta invalida**
 
 ![RutaInvalida](all_images/ruta-invalida.png)
 
-**Opcion invalida**
+☑ **Opcion invalida**
 
 ![OpcionInvalida](all_images/opcion-invalida.png)
 
-**Opciones no estipuladas**
+☑ **Opciones no estipuladas**
 
 ![Opcionadicional](all_images/opcion-adicional.png)
 
