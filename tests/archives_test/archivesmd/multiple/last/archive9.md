@@ -13,7 +13,6 @@ Tópicos: [Node.js](https://nodejs.org/en/),
 [file system](https://nodejs.org/api/fs.html),
 [path](https://nodejs.org/api/path.html),
 [http.get](https://nodejs.org/api/http.html#http_http_get_options_callback),
-parsing,
-[markdown](https://daringfireball.net/projects/markdown/syntax), CLI,
+[markdown](https://daringfireball.net/projects/markdown/syntax),
 [npm-scripts](https://docs.npmjs.com/misc/scripts),
-[semver](https://semver.org/), ...
+[semver](https://semver.org/)
