@@ -1,4 +1,4 @@
-const fetch = require('cross-fetch');
+require('isomorphic-fetch')
 
 //Aqui fetch me retorna una promesa y el parametro es un objeto
 const promisesFetch = (objeto) => fetch(objeto.href)

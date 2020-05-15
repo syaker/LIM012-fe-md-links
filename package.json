@@ -36,6 +36,8 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "cross-fetch": "^3.0.4",
+    "fetch-mock": "^9.9.0",
+    "isomorphic-fetch": "^2.2.1",
     "jsdom": "^16.2.2",
     "marked": "^1.0.0"
   },
