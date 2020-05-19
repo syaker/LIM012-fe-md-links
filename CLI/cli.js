@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { mdlinks } = require('../API/mdlinks');
-const { validateStats, validate, stats, onlyPath } = require('../CLI/cli_functions')
+const { validateStats, validate, stats, onlyPath } = require('./cli_options')
 const chalk = require('chalk')
 
 const path = process.argv[2];
@@ -9,7 +9,7 @@ const option2 = process.argv[4];
 const arrOfTerminal = process.argv;
 
 if (arrOfTerminal.length < 6) {
-  if (path && option1 === '--validate' && option2 === '--stats' || option1 === '--stats' && option2 === '--validate') {
+  if ((path && option1 === '--validate' && option2 === '--stats')|| (option1 === '--stats' && option2 === '--validate')) {
     mdlinks(path, { validate: true })
       .then((obj) => {
         validateStats(obj)
